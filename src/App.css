@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,700;0,900;1,400&family=Mulish:ital,wght@0,400;0,600;0,700;1,400&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Rubik:wght@400;500;700&family=Source+Sans+Pro:ital,wght@0,400;0,700;0,900;1,400&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+}
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+img {
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.nav__link.active {
+  color: red;
+}
+.app {
+  width: 1900px;
+  overflow: hidden;
+}
+.center {
+  width: 1050px;
+  overflow: hidden;
+}
+.container {
+  max-width: 1860px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+}
+/* Main */
+.main {
+  display: flex;
+}
+.main__img {
+  width: 50vw;
+  height: 100vh;
+}
+.main__form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main__img__inner {
+  margin-bottom: 50px;
+}
+.form__input {
+  outline: none;
+  border: none;
+  padding: 15px 50px 15px 20px;
+  border-radius: 5px;
+  background-color: red;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.main__button {
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #fff;
+  border-color: red;
+  color: red;
+}
+.main__button:hover {
+  background-color: red;
+  color: #fff;
+}
+.main__title {
+  color: #000;
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}

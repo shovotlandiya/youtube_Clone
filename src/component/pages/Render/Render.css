@@ -1,0 +1,65 @@
+.main{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.render__list {
+    margin: 0;
+    padding: 0;
+  list-style-type: none;
+}
+.line{
+    background: rgba(216, 216, 216, 0.5);
+    
+}
+.render__img {
+ 
+  width: 750px;
+  height: 400px;
+  border-radius: 14px;
+}
+.render__title {
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 45px;
+  color: #333;
+}
+.aside__list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 300px;
+    height: 900px;
+    overflow-y: auto;
+}
+
+.aside__img{
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 14px;
+}
+
+
+
+/* Render Info */
+.render__info{
+    margin-top: 30px;
+    width: 750px;
+    display: flex;
+    align-items: flex-start;
+    justify-content:center ;
+}
+.render__span__img{
+    margin-top: 20px;
+    margin-right: 50px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}

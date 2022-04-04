@@ -1,0 +1,111 @@
+.home__list {
+  width: 1050px;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+.home {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.dollie__img {
+  margin: 0;
+  padding: 0;
+  margin-right: 30px;
+}
+.home__heading {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 33px;
+  color: #19202c;
+}
+
+.home__item img {
+  display: flex;
+}
+.home__img {
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+  width: 250px;
+  height: 150px;
+  margin-right: 20px;
+  border-radius: 14px;
+}
+.home__title {
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  margin-left: 5px;
+  max-width: 250px;
+  width: 100%;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #19202c;
+}
+
+/* ============================== */
+.idNumer__list {
+  padding: 0;
+  margin: 0;
+  width: 1050px;
+  overflow: auto;
+  display: flex;
+  list-style-type: none;
+}
+.idNumber__img {
+  margin-right: 40px;
+  margin-top: 30px;
+  border-radius: 14px;
+  width: 440px;
+  height: 200px;
+}
+.idNumber__title {
+  margin-left: 20px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #19202c;
+}
+/* ============================================ */
+.idNumer__three__list {
+  padding: 0;
+  margin: 0;
+  width: 1050px;
+  overflow: auto;
+  display: flex;
+  list-style-type: none;
+}
+.idNumber__three__img {
+  margin-right: 20px;
+  margin-top: 40px;
+  width: 250px;
+  height: 150px;
+  border-radius: 14px;
+}
+.idNumber__three__title {
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #19202c;
+}
+.home__item,.idNumer__item,
+.idNumer__three__item{
+  text-decoration: none;
+}

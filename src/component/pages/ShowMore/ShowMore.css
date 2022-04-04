@@ -1,0 +1,121 @@
+img {
+  object-fit: cover;
+}
+.showtop {
+  margin-top: 30px;
+}
+.subscribtion {
+  margin: 30px 0 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.subscribtion__inner {
+  width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.subs__title {
+  margin-bottom: 2px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 33px;
+  color: #19202c;
+}
+.subs__text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #c2c2c2;
+}
+.subs__btn {
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  background: #ff0000;
+  border-radius: 20px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+.sub__list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sub__item {
+  display: flex;
+}
+.sub__link {
+  padding-right: 50px;
+  text-decoration: none;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}
+.subs__item__text {
+  font-weight: 400;
+  font-size: 16px;
+}
+.subs{
+  margin-left: 30px;
+}
+.choose {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.choose__img {
+  margin-right: 20px;
+  width: 400px;
+  height: 250px;
+}
+.choose__title{
+  margin-bottom: 20px;
+}
+.choose__inner {
+  width: 750px;
+  display: flex;
+
+  justify-content: space-between;
+}
+.right__title {
+  margin-left: 20px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #19202c;
+}
+.choose__right__inner {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+.videos {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.videos__render {
+  overflow-y: auto;
+  display: flex;
+}
+.videos__img {
+  margin-right: 30px;
+  width: 150px;
+}
